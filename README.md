@@ -11,10 +11,10 @@
 - https://api.slack.com/applications でアプリケーションを新規作成
 - 作成後のClient IDとClient Secretをメモしておく
 - 以下のURLにアクセス
-    - https://slack.com/oauth/authorize?client_id=【Client ID】&scope=chat:write:bot
+    - https://slack.com/oauth/authorize?client_id=clientId&scope=chat:write:bot
 - リダイレクト先のURLに code というパラメータが付与されているのでメモしておく
 - 以下のURLにアクセス
-    - https://slack.com/api/oauth.access?client_id=【Client ID】&client_secret=【Client Secret】&code=【code】
+    - https://slack.com/api/oauth.access?client_id=clientId&client_secret=clientSecret&code=code
 - 表示されたaccess_tokenが今後利用するトークンになる
 
 # 設定方法
